@@ -9,9 +9,9 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
     # --- VK OAuth (приложение с dev.vk.com) ---
-    VK_CLIENT_ID: str = ""
-    VK_CLIENT_SECRET: str = ""
-    VK_REDIRECT_URI: str = "https://your-domain.ru/auth/vk/callback"
+    VK_CLIENT_ID: str = "4huV53h3Yccv0iC3oZPf"
+    VK_CLIENT_SECRET: str = "6b47fab66b47fab66b47fab6c16806873966b476b47fab601668ce83cc8d186a44c7c1e"
+    VK_REDIRECT_URI: str = "https://postpilotvk.onrender.com/auth/vk/callback"
     VK_API_VERSION: str = "5.199"
 
     # --- LLM для генерации текста ---
